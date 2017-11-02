@@ -17,7 +17,6 @@
  
  # #2
  group :development do
-   # Use sqlite3 & pry-rails as the development database for Active Record
    gem 'sqlite3'
    gem 'pry-rails'
  end
