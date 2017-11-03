@@ -22,6 +22,5 @@ module RandomData
      letters = ('a'..'z').to_a
      letters.shuffle!
      letters[0,rand(3..8)].join
-     config.autoload_paths << File.join(config.root, "lib")
    end
  end

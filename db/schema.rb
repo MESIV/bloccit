@@ -19,8 +19,6 @@ ActiveRecord::Schema.define(version: 20171026182514) do
     t.datetime "updated_at", null: false
     t.index ["question_id"], name: "index_answers_on_question_id"
   end
-    
-ActiveRecord::Schema.define(version: 20171102185548) do
 
   create_table "comments", force: :cascade do |t|
     t.text "body"
@@ -44,4 +42,5 @@ ActiveRecord::Schema.define(version: 20171102185548) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
 end
